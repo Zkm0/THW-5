@@ -1,5 +1,9 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bubbler+One&display=swap');
+
  body {
     margin: 50px;
-    font-family: Helvetica, sans-serif;
+   
+    font-family: 'Bubbler One', sans-serif;
     font-size: 150%;
 }

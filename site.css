@@ -1,9 +1,105 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bubbler+One&display=swap');
 
- body {
-    margin: 50px;
-   
-    font-family: 'Bubbler One', sans-serif;
-    font-size: 150%;
+ /* Body */
+body {
+  background-color: #f4e7da;
+  font-family: Arial, sans-serif;
+}
+
+/* Page */
+[data-role="page"] {
+  background-color: #fcefe6;
+  padding: 10px;
+}
+
+/* Header */
+[data-role="header"] {
+  background-color: #ffad9f;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Navbar */
+[data-role="navbar"] {
+  background-color: #ffd5c2;
+  color: #ffffff;
+}
+
+/* Navbar Active */
+.ui-btn-active {
+  background-color: #ff7b6d;
+}
+
+/* Content */
+[data-role="content"] {
+  background-color: #fff8f2;
+  padding: 10px;
+}
+
+/* Footer */
+[data-role="footer"] {
+  background-color: #ff9b9b;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Input Fields */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"], textarea, input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #ffd2b4;
+}
+
+/* Submit Button */
+input[type="submit"] {
+  background-color: #ff7b6d;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Bucketlist */
+#bucketlist {
+  margin-top: 20px;
+}
+
+#bucketlist li {
+  background-color: #ffebb7;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#bucketlist li h3 {
+  margin-top: 0;
+}
+
+#bucketlist li a.delete {
+  background-color: #ff5252;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+#bucketlist li a.delete:hover {
+  background-color: #ff5252;
 }
